@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="javax.xml.ws.spi.Provider"/>
+<fullyQualifiedTypeName name="javax.xml.crypto.dsig.XMLSignatureFactory"/>
+<fullyQualifiedTypeName name="java.security.KeyStore"/>
+<fullyQualifiedTypeName name="java.security.Security"/>
+<fullyQualifiedTypeName name="java.util.Enumeration"/>
+<fullyQualifiedTypeName name="java.io.IOException"/>
+<fullyQualifiedTypeName name="com.sun.org.apache.xml.internal.security.keys.content.X509Data"/>
+<fullyQualifiedTypeName name="javax.xml.ws.Provider"/>
+<fullyQualifiedTypeName name="sun.security.pkcs11.SunPKCS11"/>
+<fullyQualifiedTypeName name="com.sun.security.sasl.Provider"/>
+<fullyQualifiedTypeName name="java.security.Provider"/>
+<fullyQualifiedTypeName name="org.apache.tomcat.util.http.fileupload.IOUtils"/>
+<fullyQualifiedTypeName name="org.xml.sax.InputSource"/>
+<fullyQualifiedTypeName name="org.w3c.dom.Document"/>
+<fullyQualifiedTypeName name="javax.xml.crypto.dsig.keyinfo.X509Data"/>
+<fullyQualifiedTypeName name="javax.xml.crypto.dsig.keyinfo.KeyInfo"/>
+<fullyQualifiedTypeName name="javax.xml.crypto.dsig.XMLSignature"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.Collections"/>
+<fullyQualifiedTypeName name="com.sun.org.apache.xml.internal.security.encryption.Reference"/>
+<fullyQualifiedTypeName name="javax.security.cert.X509Certificate"/>
+<fullyQualifiedTypeName name="javax.xml.crypto.dsig.SignedInfo"/>
+<fullyQualifiedTypeName name="javax.xml.crypto.dsig.Transform"/>
+<fullyQualifiedTypeName name="java.io.InputStream"/>
+<fullyQualifiedTypeName name="java.security.Certificate"/>
+<fullyQualifiedTypeName name="javax.servlet.ServletContext"/>
+<fullyQualifiedTypeName name="org.apache.catalina.servlet4preview.ServletContext"/>
+<fullyQualifiedTypeName name="java.nio.file.Files"/>
+<fullyQualifiedTypeName name="java.io.File"/>
+<fullyQualifiedTypeName name="java.io.FileInputStream"/>
+<fullyQualifiedTypeName name="com.atlantic.esocial.envioLote.ServicoEnviarLoteEventos_Service"/>
+<fullyQualifiedTypeName name="com.atlantic.esocial.envioLote.test.EnviarLoteEventosTest"/>
+<fullyQualifiedTypeName name="com.atlantic.esocial.envioLote.ServicoEnviarLoteEventos"/>
+<fullyQualifiedTypeName name="com.atlantic.esocial.envioLote.EnviarLoteEventos"/>
+<fullyQualifiedTypeName name="com.atlantic.esocial.envioLote.EnviarLoteEventos.LoteEventos"/>
+<fullyQualifiedTypeName name="com.atlantic.esocial.envioLote.EnviarLoteEventosResponse.EnviarLoteEventosResult"/>
+<fullyQualifiedTypeName name="com.atlantic.esocial.util.EsocialUtil"/>
+<fullyQualifiedTypeName name="com.atlantic.esocial.consultarLote.ServicoConsultarLoteEventos_Service"/>
+<fullyQualifiedTypeName name="com.atlantic.esocial.consultarLote.ServicoConsultarLoteEventos"/>
+<fullyQualifiedTypeName name="com.atlantic.esocial.consultarLote.ConsultarLoteEventosResponse"/>
+<fullyQualifiedTypeName name="com.atlantic.esocial.consultarLote.ConsultarLoteEventosResponse.ConsultarLoteEventosResult"/>
+<fullyQualifiedTypeName name="com.atlantic.esocial.consultarLote.ConsultarLoteEventos.Consulta"/>
+<fullyQualifiedTypeName name="com.atlantic.esocial.consultarLote.ConsultarLoteEventos"/>
+</qualifiedTypeNameHistroy>

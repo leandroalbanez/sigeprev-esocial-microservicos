@@ -1,0 +1,5 @@
+INDEX VERSION 1.130
+D:\Esocial\ws\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1296827340.index
+\AssinaturaWS\src
+D:\Esocial\workspace_assinaturas\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1296827340.index
+\AssinaturaWS\src
