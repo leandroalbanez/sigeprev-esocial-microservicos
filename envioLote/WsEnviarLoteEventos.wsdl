@@ -119,6 +119,8 @@
 			binding="tns:WsEnviarLoteEventos">
 			<soap:address
 				location="https://webservices.producaorestrita.esocial.gov.br/servicos/empregador/enviarloteeventos/WsEnviarLoteEventos.svc" />
+				
+				
 		</wsdl:port>
 	</wsdl:service>
 </wsdl:definitions>

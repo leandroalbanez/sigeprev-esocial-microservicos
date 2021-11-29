@@ -11,6 +11,7 @@ import java.security.cert.X509Certificate;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Enumeration;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Properties;
@@ -73,13 +74,20 @@ public class Assinatura {
 							(SignatureMethodParameterSpec) null),
 					Collections.singletonList(ref));
 
-			KeyStore ks = KeyStore.getInstance("PKCS12");
-//			KeyStore ks = KeyStore.getInstance("JKS");
-			InputStream readStream = new FileInputStream("D:\\Esocial\\Certificados\\spprev2021.pfx");
+//			KeyStore ks = KeyStore.getInstance("PKCS12");
+			KeyStore ks = KeyStore.getInstance("JKS");
+			InputStream readStream = new FileInputStream("D:\\Esocial\\Certificados\\iprev.pfx");
 //			InputStream readStream = new FileInputStream("/opt/configurations/security/keystores/spprev_a1.pfx");
-			ks.load(readStream, "spprev2021".toCharArray());
+			ks.load(readStream, "junior123".toCharArray());
 //			Key key = ks.getKey("keyAlias", null);
 			readStream.close();
+			Enumeration<String> aliases = ks.aliases();
+			while(aliases.hasMoreElements()){
+				String alias = aliases.nextElement();
+		        if(ks.getCertificate(alias).getType().equals("X.509")){
+		        	System.out.println(alias + " expires " + ((X509Certificate) ks.getCertificate(alias)).getNotAfter());
+		        }
+			}
 			KeyStore.PrivateKeyEntry keyEntry = (KeyStore.PrivateKeyEntry) ks.getEntry(certAlias,
 					new KeyStore.PasswordProtection(certPassword.toCharArray()));
 
@@ -174,12 +182,20 @@ public class Assinatura {
 	
     static void getProp() throws IOException {
 		Properties props = new Properties();
-		FileInputStream file = new FileInputStream("D:\\Esocial\\ws\\AssinaturaWS\\WebContent\\properties\\config.properties");
+//		FileInputStream file = new FileInputStream("D:\\Esocial\\workspace_assinaturas\\AssinaturaWS\\config.properties");
 //		FileInputStream file = new FileInputStream("/opt/configurations/esocial/config.properties");
-		props.load(file);
-//		certAlias = "SAO PAULO PREVIDENCIA SPPREV:09041213000136";
-		certAlias = "SAO_PAULO_PREVIDENCIA_SPPREV_09041213000136.p12";
-		certPassword = "spprev2021";
+//		props.load(file);
+
+//		certAlias = "SAO_PAULO_PREVIDENCIA_SPPREV_09041213000136.p12";
+//		certPassword = "spprev2021";
+
+		certAlias = "698a987f-f8c4-4e28-9cdd-d25393c0029a"; //IPREV
+		certPassword = "junior123";
+		
+//		certAlias = "0c1b5152-6819-4bc4-9c22-868f9de17b3f"; //CAMPREV
+//		certPassword = "camprev30062004";
+		
+		
 	}
 }
 

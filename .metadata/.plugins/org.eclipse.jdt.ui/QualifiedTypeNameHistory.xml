@@ -43,4 +43,14 @@
 <fullyQualifiedTypeName name="com.atlantic.esocial.consultarLote.ConsultarLoteEventosResponse.ConsultarLoteEventosResult"/>
 <fullyQualifiedTypeName name="com.atlantic.esocial.consultarLote.ConsultarLoteEventos.Consulta"/>
 <fullyQualifiedTypeName name="com.atlantic.esocial.consultarLote.ConsultarLoteEventos"/>
+<fullyQualifiedTypeName name="br.com.esocial.webservice.producao.ServicoEnviarLoteEventos_Service"/>
+<fullyQualifiedTypeName name="br.com.esocial.webservice.producaorestrita.envioLote.ServicoEnviarLoteEventos_Service"/>
+<fullyQualifiedTypeName name="br.com.esocial.webservice.producao.ServicoEnviarLoteEventos_ServiceLocator"/>
+<fullyQualifiedTypeName name="br.com.esocial.webservice.producao.envioLote.EnviarLoteEventosLoteEventos"/>
+<fullyQualifiedTypeName name="br.com.esocial.webservice.producao.envioLote.ServicoEnviarLoteEventos_ServiceLocator"/>
+<fullyQualifiedTypeName name="br.com.esocial.webservice.producao.envioLote.ServicoEnviarLoteEventosProxy"/>
+<fullyQualifiedTypeName name="br.com.esocial.webservice.producao.envioLote.ServicoEnviarLoteEventos_PortType"/>
+<fullyQualifiedTypeName name="br.com.esocial.webservice.producao.envioLote.EnviarLoteEventosResponseEnviarLoteEventosResult"/>
+<fullyQualifiedTypeName name="javax.lang.model.element.Element"/>
+<fullyQualifiedTypeName name="org.w3c.dom.Element"/>
 </qualifiedTypeNameHistroy>

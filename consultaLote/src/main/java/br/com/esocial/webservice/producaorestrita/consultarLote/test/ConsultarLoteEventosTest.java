@@ -17,8 +17,8 @@ public class ConsultarLoteEventosTest {
 			System.out.println("args["+ i++ +"] : " + arg);	
 		}
 		
-		Map<String, String> map = DAOGenerico.executeQueryForUniqueValue("SELECT NUM_CPF AS RESULTADO FROM TB_PESSOA_FISICA PF WHERE ROWNUM = 1 ");
-		System.out.println("Resultado: " + map.get("RESULTADO"));
+//		Map<String, String> map = DAOGenerico.executeQueryForUniqueValue("SELECT NUM_CPF AS RESULTADO FROM TB_PESSOA_FISICA PF WHERE ROWNUM = 1 ");
+//		System.out.println("Resultado: " + map.get("RESULTADO"));
 		
 		ServicoConsultarLoteEventos_Service service = new ServicoConsultarLoteEventos_Service();
 		ServicoConsultarLoteEventos consultarLote = service.getServicosEmpregadorServicoConsultarLoteEventos();
@@ -34,7 +34,7 @@ public class ConsultarLoteEventosTest {
 			+ "xsi:schemaLocation=\"http://www.esocial.gov.br/schema/lote/eventos/envio/consulta/retornoProcessamento/v1_0_0 schema.xsd\" "
 			+ "xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">\r\n" + 
 			"	<consultaLoteEventos>\r\n" + 
-			"		<protocoloEnvio>1.2.202110.0000000000090927698</protocoloEnvio>\r\n" + 
+			"		<protocoloEnvio>1.2.202111.0000000000095622628</protocoloEnvio>\r\n" + 
 			"	</consultaLoteEventos>\r\n" + 
 			"</eSocial>";
 
