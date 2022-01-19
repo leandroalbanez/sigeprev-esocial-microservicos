@@ -74,11 +74,11 @@ public class Assinatura {
 							(SignatureMethodParameterSpec) null),
 					Collections.singletonList(ref));
 
-//			KeyStore ks = KeyStore.getInstance("PKCS12");
-			KeyStore ks = KeyStore.getInstance("JKS");
-			InputStream readStream = new FileInputStream("D:\\Esocial\\Certificados\\iprev.pfx");
-//			InputStream readStream = new FileInputStream("/opt/configurations/security/keystores/spprev_a1.pfx");
-			ks.load(readStream, "junior123".toCharArray());
+//			KeyStore ks = KeyStore.getInstance("JKS");
+			KeyStore ks = KeyStore.getInstance("PKCS12");
+//			InputStream readStream = new FileInputStream("D:\\Esocial\\Certificados\\spprev2021.pfx");
+			InputStream readStream = new FileInputStream("/opt/configurations/security/keystores/spprev_a1.pfx");
+			ks.load(readStream, certPassword.toCharArray());
 //			Key key = ks.getKey("keyAlias", null);
 			readStream.close();
 			Enumeration<String> aliases = ks.aliases();
@@ -186,11 +186,11 @@ public class Assinatura {
 //		FileInputStream file = new FileInputStream("/opt/configurations/esocial/config.properties");
 //		props.load(file);
 
-//		certAlias = "SAO_PAULO_PREVIDENCIA_SPPREV_09041213000136.p12";
-//		certPassword = "spprev2021";
+		certAlias = "SAO_PAULO_PREVIDENCIA_SPPREV_09041213000136.p12";
+		certPassword = "spprev2021";
 
-		certAlias = "698a987f-f8c4-4e28-9cdd-d25393c0029a"; //IPREV
-		certPassword = "junior123";
+//		certAlias = "698a987f-f8c4-4e28-9cdd-d25393c0029a"; //IPREV
+//		certPassword = "junior123";
 		
 //		certAlias = "0c1b5152-6819-4bc4-9c22-868f9de17b3f"; //CAMPREV
 //		certPassword = "camprev30062004";

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
-	<item value="640" key="org.eclipse.jdt.internal.debug.ui.actions.PopupInspectAction$2DIALOG_HEIGHT"/>
-	<item value="819" key="org.eclipse.jdt.internal.debug.ui.actions.PopupInspectAction$2DIALOG_WIDTH"/>
+	<item value="936" key="org.eclipse.jdt.internal.debug.ui.actions.PopupInspectAction$2DIALOG_HEIGHT"/>
+	<item value="1157" key="org.eclipse.jdt.internal.debug.ui.actions.PopupInspectAction$2DIALOG_WIDTH"/>
 	<section name="org.eclipse.debug.ui.STRING_VARIABLE_SELECTION_DIALOG_SECTION">
 		<item value="658" key="DIALOG_WIDTH"/>
 		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-18|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>

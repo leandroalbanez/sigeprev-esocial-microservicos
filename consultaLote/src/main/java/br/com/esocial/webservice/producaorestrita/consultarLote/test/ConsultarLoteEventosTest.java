@@ -34,7 +34,7 @@ public class ConsultarLoteEventosTest {
 			+ "xsi:schemaLocation=\"http://www.esocial.gov.br/schema/lote/eventos/envio/consulta/retornoProcessamento/v1_0_0 schema.xsd\" "
 			+ "xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">\r\n" + 
 			"	<consultaLoteEventos>\r\n" + 
-			"		<protocoloEnvio>1.2.202111.0000000000095622628</protocoloEnvio>\r\n" + 
+			"		<protocoloEnvio>1.2.202112.0000000000101194992</protocoloEnvio>\r\n" + 
 			"	</consultaLoteEventos>\r\n" + 
 			"</eSocial>";
 

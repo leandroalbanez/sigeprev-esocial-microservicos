@@ -44,8 +44,8 @@ public class AssinaturaClientIprev {
 //		String retorno = assinatura.getAssinatura(XML_ESOCIAL);
 //		System.out.println(retorno);
 		long tmpInicio = System.currentTimeMillis();
-//		proxy.setEndpoint("https://sigeprev.spprev.sp.gov.br/assinaturahmg/services/Assinatura");
-		proxy.setEndpoint("http://localhost:8080/AssinaturaWS/services/Assinatura");
+		proxy.setEndpoint("https://sigeprev.spprev.sp.gov.br/assinaturahmg/services/Assinatura");
+//		proxy.setEndpoint("http://localhost:8080/AssinaturaWS/services/Assinatura");
 		System.out.println(proxy.getAssinatura(XML_ESOCIAL));
 		long tmpFim = System.currentTimeMillis();
 		printInFile("TESTES");
